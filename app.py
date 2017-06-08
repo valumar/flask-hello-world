@@ -12,4 +12,4 @@ def hello_world():
     return "Hello, World!"
 # start the development server using the run() method
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0')
